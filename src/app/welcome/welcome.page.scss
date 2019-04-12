@@ -1,0 +1,25 @@
+ion-list, ion-item, item-native, ion-label {
+    background: transparent;
+    --background: transparent;
+}
+
+ion-skeleton-text {
+    box-shadow: inset 0px 0px 0px 8px rgba($color: #fff, $alpha: .4);
+}
+
+
+.container {
+    position: fixed;
+    display: flex;
+}
+
+.blob-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: #706fd3;
+    width: 110vmax;
+    z-index: 0;
+    transform-origin: 50% 50%;
+    opacity: .8;
+}

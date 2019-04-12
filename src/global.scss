@@ -1,0 +1,104 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+@import '~@ionic/angular/css/display.css';
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:700');
+
+h1, h2, h3, h4, h5, h6, p, a, ion-title, input {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+ion-toolbar {
+    --opacity: 0;
+    color: #fff;
+}
+
+ion-content {
+  --background: #303952;
+}
+
+ion-footer {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+// Blobs
+
+.wrap {
+  margin-top: 100px !important;
+  width: 410px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blob {
+  width: 100%;
+  clear: both;
+}
+
+.blob-content {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 26px;
+  padding: .7em 1.6em;
+  border-radius: 50rem;
+  color: #3f3f3f;
+  text-align: left;
+  background-color: #FFEC79;
+
+  > * {
+    margin: 0;
+  }
+
+  &.offset-right {
+    float: right;
+  }
+
+  &.offset-left {
+    float: left;
+  }
+}
+
+.blob-connector {
+    position: absolute;
+    overflow: hidden !important;
+    bottom: -26px;
+    // left: calc(50% - 35px); // 35px = half of connector width
+    left: calc(50% - 39px); // 35px = half of connector width
+    width: 66px;
+    height: 26px;
+    border: none !important;
+    border-radius: 0 !important;
+
+    &:before, &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 26px;
+        height: 26px;
+        background: transparent;
+        box-shadow: 0 0 0 16px #FFEC79;
+    }
+
+    &:before {
+        left: -1px;
+        border-radius: 0 50em 50em 0;
+    }
+
+    &:after {
+        right: -1px;
+        border-radius: 50em 0 0 50em;
+    }
+}
+

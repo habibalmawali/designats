@@ -1,0 +1,49 @@
+.blob {
+
+    // .blob-content {
+    //     width: 100%;
+    // }
+
+    p {
+        display: block;
+        float: left;
+        padding-right: 8px;
+    }
+
+    input {
+        width: 170px;
+        border: none;
+        border-left: 4px solid #303952;
+        background: rgba($color: #fff, $alpha: 0.66);
+        outline: none;
+        text-indent:8px;
+        border-radius: 0 50em 50em 0;
+    }
+
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+//
+
+
+
+.container {
+    position: fixed;
+    display: flex;
+}
+
+.blob-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: #706fd3;
+    width: 160vmax;
+    z-index: 0;
+    transform-origin: 50% 50%;
+}
