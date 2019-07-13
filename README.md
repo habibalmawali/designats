@@ -6,9 +6,7 @@
 </p>
 
 ## Screenshots
-<p align="center">
-<img src="https://habibo.net/imgs/public/upload/AGmnDLBMMNSrOtnBlBvfJZAbCTnPYOx1wlqPopSS.png" />
-</p>
+![designats-preview](https://user-images.githubusercontent.com/31030616/61168600-a169ff80-a561-11e9-9ae2-a1a66565f026.png)
 
 ## Prerequisite:
 1. Node.js to be installed.
